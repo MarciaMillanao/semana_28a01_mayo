@@ -1,0 +1,53 @@
+body{
+  background-image: url('../img/fondo.jpg');
+  padding: 10%;
+}
+
+.titulo{
+  text-align: center;
+  margin-bottom: 5%;
+}
+
+.botones{
+  text-align: center;
+}
+
+button{
+  padding: 2%;
+  border-radius: 7px;
+  font-size: 20px;
+  margin: 2% 2% 6% 2%;
+  background-color: antiquewhite;
+}
+
+button:focus{
+  background-color:black;
+  color: white;
+}
+
+.text_hide{
+  background-color: aliceblue;
+  padding: 2%;
+  border: 2px solid red;
+  border-radius: 7px;
+  margin-bottom: 5%;
+}
+
+.hide{
+  display:none;
+}
+
+.img_show{
+  display: none;
+}
+
+.ada{
+  background-color: aliceblue;
+  padding: 2%;
+  border: 2px solid red;
+  border-radius: 7px;
+}
+
+img{
+  width: 100%;
+}
